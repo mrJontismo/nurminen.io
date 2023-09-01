@@ -8,4 +8,4 @@ COPY assets /usr/share/nginx/html/assets
 COPY rice /usr/share/nginx/html/rice
 COPY homelab /usr/share/nginx/html/homelab
 
-COPY index.html styles.css /usr/share/nginx/html
+COPY index.html styles.css /usr/share/nginx/html/
