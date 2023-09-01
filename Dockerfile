@@ -9,3 +9,5 @@ COPY rice /usr/share/nginx/html/rice
 COPY homelab /usr/share/nginx/html/homelab
 
 COPY index.html styles.css /usr/share/nginx/html/
+
+EXPOSE 80
