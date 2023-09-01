@@ -1,2 +1,2 @@
 FROM nginx:latest
-COPY index.html rice homelab assets /usr/share/nginx/html/
+COPY index.html styles.css rice homelab assets /usr/share/nginx/html/
